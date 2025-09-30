@@ -12,11 +12,27 @@
             width: 100px;
             font-weight: lighter;
             cursor: pointer;
+            margin-right: 8px;
+            text-overflow: none;
+        }
+        .amazon{
+            background-color: rgb(255,216,20);
+            width: 150px;
+            height: 36px;
+            border-radius: 18px;
+            border: none;
+            cursor: pointer;
         }
     </style>
     <title>Full Stack Refresher - CSS</title>
 </head>
 <body>
-    <a href="https://www.uber.com/tw/en/"><button class="uber">Request now</button></a>
+   <button class="uber" onclick="window.location.href='https://www.uber.com/tw/en/'">
+        Request now
+    </button>
+
+    <button class="amazon" onclick="window.location.href='https://www.amazon.com/'">
+        Add to Cart
+    </button>
 </body>
 </html>
